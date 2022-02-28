@@ -5,7 +5,7 @@
 	"manifest_version": 3,
 	"content_scripts": [
 		{
-			"matches": ["https://chegg.com/homework-help/*"],
+			"matches": ["https://www.chegg.com/homework-help/*"],
 			"js": ["cm-block-remover.js"]
 		}
 	]
